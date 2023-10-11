@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/ControlTurtle.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct ControlTurtle_Request {
+      float target_x;
+
+      float target_y;
+    };
+    struct ControlTurtle_Response {
+      boolean success;
+    };
+  };
+};
