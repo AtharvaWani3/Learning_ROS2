@@ -1,4 +1,0 @@
-Invoking command in '/home/atharva/ros2_ws/build/my_robot_interfaces': /usr/bin/cmake --build /home/atharva/ros2_ws/build/my_robot_interfaces -- -j4 -l4
-Invoked command in '/home/atharva/ros2_ws/build/my_robot_interfaces' returned '0': /usr/bin/cmake --build /home/atharva/ros2_ws/build/my_robot_interfaces -- -j4 -l4
-Invoking command in '/home/atharva/ros2_ws/build/my_robot_interfaces': /usr/bin/cmake --install /home/atharva/ros2_ws/build/my_robot_interfaces
-Invoked command in '/home/atharva/ros2_ws/build/my_robot_interfaces' returned '0': /usr/bin/cmake --install /home/atharva/ros2_ws/build/my_robot_interfaces

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/atharva/ros2_ws/src/my_robot_description
+CMAKE_SOURCE_DIR = /home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/atharva/ros2_ws/build/my_robot_description
+CMAKE_BINARY_DIR = /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/atharva/ros2_ws/build/my_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/atharva/ros2_ws/src/my_robot_description /home/atharva/ros2_ws/src/my_robot_description /home/atharva/ros2_ws/build/my_robot_description /home/atharva/ros2_ws/build/my_robot_description /home/atharva/ros2_ws/build/my_robot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description /home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
