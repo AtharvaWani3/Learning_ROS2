@@ -27,4 +27,6 @@
         <br>datatype response_variable_1
         <br>datatype response_variable_2
         <br>...</p></li>
+    <li><h3>Parameters</h3>
+        <p>Parameters are variables that can be used to configure a node. These can be used when certain properties of a node need to be changed at run time to make the same node definition compatible with different configurations of the robot. These are defined within the node definition.</p></li>
 </ol>
