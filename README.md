@@ -9,12 +9,9 @@
         <p>A Topic is a communication channel that enables data transfer between nodes. It implements the publisher-subscriber model. It is a one communication channel in which a node can publish on a topic or multiple topics and a topic can have multiple subscribers.</p></li>
     <li><h3>Service</h3>
         <p>A Service is another means of communication in ROS2. It implements the server-client protocol. It is a two way communication channel in which a client node makes a request to the server node and server node processes the request and sends back a response.</p></li>
-    <li><h3>Action</h3>
-        <!-- CONTINUE FROM HERE -->
-        <p>An action is </p></li>
 </ol>
 <br>
-<h2>ROS2 Interfaces</h2>
+<h2>ROS2 Interfaces and Other concepts</h2>
 <ol>
     <li><h3>Message</h3>
         <p>A Message is definition of structure of the data published over a topic. It maintains a standardized format of the data being sent over a topic so it is easy to access and process the data in other nodes. ROS2 has many in-built message definitions and a custom message definition can be created in the form of a .msg file.<br>The structure of a message definition is as follows:<br>
@@ -32,4 +29,6 @@
         <br>...</p></li>
     <li><h3>Parameters</h3>
         <p>Parameters are variables that can be used to configure a node. These can be used when certain properties of a node need to be changed at run time to make the same node definition compatible with different configurations of the robot. These are defined within the node definition.</p></li>
+    <li><h3>Action</h3>
+        <p>An action is communication architecture built by using services and topics. It functions similar to services with the difference that an action can be cancelled midway and actions provide a steady feedback as opposed to a single response.</p></li>
 </ol>
