@@ -9,6 +9,8 @@
         <p>A Topic is a communication channel that enables data transfer between nodes. It implements the publisher-subscriber model. It is a one communication channel in which a node can publish on a topic or multiple topics and a topic can have multiple subscribers.</p></li>
     <li><h3>Service</h3>
         <p>A Service is another means of communication in ROS2. It implements the server-client protocol. It is a two way communication channel in which a client node makes a request to the server node and server node processes the request and sends back a response.</p></li>
+    <li><h3>Action</h3>
+        <p>An action is </p></li>
 </ol>
 <br>
 <h2>ROS2 Interfaces</h2>
