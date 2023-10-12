@@ -10,6 +10,7 @@
     <li><h3>Service</h3>
         <p>A Service is another means of communication in ROS2. It implements the server-client protocol. It is a two way communication channel in which a client node makes a request to the server node and server node processes the request and sends back a response.</p></li>
     <li><h3>Action</h3>
+        <!-- CONTINUE FROM HERE -->
         <p>An action is </p></li>
 </ol>
 <br>
