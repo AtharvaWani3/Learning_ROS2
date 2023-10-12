@@ -11,8 +11,20 @@
         <p>A Service is another means of communication in ROS2. It implements the server-client protocol. It is a two way communication channel in which a client node makes a request to the server node and server node processes the request and sends back a response.</p></li>
 </ol>
 <br>
-<h2>Important Concepts use ROS2 to its full potential</h2>
+<h2>ROS2 Interfaces</h2>
 <ol>
     <li><h3>Message</h3>
-        <p>A Message is definition of structure of the data published over a topic. It maintains a standardized format of the data being sent over a topic so it is easy to access and process the data in other nodes. ROS2 has many in-built message definitions and a custom message definition can also be created in the form of a .msg file.<br>The structure of the message definition is as follows:<br>datatype variable_name_1<br>datatype variable_name_2<br>...</p></li>
+        <p>A Message is definition of structure of the data published over a topic. It maintains a standardized format of the data being sent over a topic so it is easy to access and process the data in other nodes. ROS2 has many in-built message definitions and a custom message definition can be created in the form of a .msg file.<br>The structure of a message definition is as follows:<br>
+        <br>datatype variable_name_1
+        <br>datatype variable_name_2
+        <br>...</p></li>
+    <li><h3>Service</h3>
+        <p>A Service definition is the structure for data interchange between the server node and client node. It maintains a standardized format for the request is sent by a client node and the response sent by the server node for a particular service definition. ROS2 has many in-built service definitions and custom service definition can be created in the form of a .srv file.<br>The structure of a service definition is as follows:<br>
+        <br>datatype request_variable_1
+        <br>datatype request_variable_2
+        <br>...
+        <br>---
+        <br>datatype response_variable_1
+        <br>datatype response_variable_2
+        <br>...</p></li>
 </ol>
