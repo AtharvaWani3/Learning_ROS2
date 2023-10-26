@@ -1,4 +1,4 @@
-<h1>A repository to track progress of learning ROS2.</h1>
+<h1>A repository to track progress of learning ROS2</h1>
 <br>
 <h2>Fundamental Concepts</h2>
 <br>
@@ -31,4 +31,12 @@
         <p>Parameters are variables that can be used to configure a node. These can be used when certain properties of a node need to be changed at run time to make the same node definition compatible with different configurations of the robot. These are defined within the node definition.</p></li>
     <li><h3>Action</h3>
         <p>An action is communication architecture built by using services and topics. It functions similar to services with the difference that an action can be cancelled midway and actions provide a steady feedback as opposed to a single response.</p></li>
+</ol>
+<br>
+<h2>Simulation concepts and tools</h2>
+<ol>
+    <li><h3>TransForm (tf)</h3>
+        Each component of a robotic system has its own coordiniate frame. TransForms refer to the calculation for relating component coordinate frames to a base / reference frame. It is important to do so to define where each component is located on a robot with respect to a 
+        <!-- CONTINUE FROM HERE  -->
+        datum coordinate frame<p></p></li>
 </ol>

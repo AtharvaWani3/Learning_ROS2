@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages",
+        "/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/atharva/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages",
+        "/home/atharva/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/atharva/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages",
+        "/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/home/atharva/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages",
+        "/home/atharva/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/atharva/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
