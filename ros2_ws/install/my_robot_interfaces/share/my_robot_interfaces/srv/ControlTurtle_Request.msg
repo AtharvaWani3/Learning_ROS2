@@ -1,2 +1,1 @@
-float32 target_x
-float32 target_y
+/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces/rosidl_cmake/srv/ControlTurtle_Request.msg

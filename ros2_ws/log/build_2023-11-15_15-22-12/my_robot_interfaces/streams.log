@@ -1,0 +1,24 @@
+[0.246s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.325s] [  1%] Built target my_robot_interfaces__cpp
+[0.349s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.357s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.401s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.417s] [ 35%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.417s] [ 46%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.433s] [ 57%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.477s] [ 69%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.482s] [ 80%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.518s] [ 80%] Built target my_robot_interfaces
+[0.555s] [ 81%] Built target my_robot_interfaces__py
+[0.601s] [ 91%] Built target my_robot_interfaces__rosidl_generator_py
+[0.679s] [ 95%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.680s] [ 97%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.704s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[1.210s] running egg_info
+[1.211s] writing my_robot_interfaces.egg-info/PKG-INFO
+[1.211s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[1.211s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[1.217s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.219s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[1.292s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[1.330s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j4 -l4

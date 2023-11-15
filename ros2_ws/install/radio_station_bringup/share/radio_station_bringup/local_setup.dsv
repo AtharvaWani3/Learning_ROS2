@@ -1,2 +1,1 @@
-source;share/radio_station_bringup/environment/ament_prefix_path.sh
-source;share/radio_station_bringup/environment/path.sh
+/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup/ament_cmake_environment_hooks/local_setup.dsv

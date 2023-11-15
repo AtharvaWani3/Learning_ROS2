@@ -1,0 +1,24 @@
+[0.173s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces': /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j4 -l4
+[0.246s] [  1%] Built target my_robot_interfaces__cpp
+[0.248s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.267s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.312s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.320s] [ 35%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.323s] [ 46%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.328s] [ 57%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.367s] [ 69%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.372s] [ 80%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.419s] [ 80%] Built target my_robot_interfaces
+[0.439s] [ 81%] Built target my_robot_interfaces__py
+[0.498s] [ 91%] Built target my_robot_interfaces__rosidl_generator_py
+[0.548s] [ 94%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.564s] [ 97%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.570s] [100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[0.892s] running egg_info
+[0.893s] writing my_robot_interfaces.egg-info/PKG-INFO
+[0.893s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[0.894s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[0.898s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.900s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.951s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[0.974s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces' returned '0': /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j4 -l4
