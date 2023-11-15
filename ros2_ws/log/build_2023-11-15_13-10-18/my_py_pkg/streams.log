@@ -1,0 +1,97 @@
+[1.937s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.257s] running egg_info
+[2.257s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.258s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.259s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.259s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.259s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.259s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.259s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.261s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.261s] adding license file 'LICENSE'
+[2.262s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.262s] running build
+[2.262s] running build_py
+[2.262s] creating /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build
+[2.263s] creating /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib
+[2.263s] creating /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.263s] copying my_py_pkg/my_first_node.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.263s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.263s] copying my_py_pkg/__init__.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.264s] copying my_py_pkg/rectangle_area_client.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.265s] copying my_py_pkg/battery.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.265s] copying my_py_pkg/robot_news_station.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.265s] copying my_py_pkg/number_counter.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.266s] copying my_py_pkg/add_two_ints_server.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.266s] copying my_py_pkg/number_publisher.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.266s] copying my_py_pkg/number_counter_reset.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.267s] copying my_py_pkg/add_two_ints_client.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.267s] copying my_py_pkg/python_template.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.267s] copying my_py_pkg/led_panel.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.267s] copying my_py_pkg/number_counter_server.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.268s] copying my_py_pkg/hw_status_publisher.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.268s] copying my_py_pkg/smartphone.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.268s] copying my_py_pkg/rectangle_area_server.py -> /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.269s] running install
+[2.269s] running install_lib
+[2.270s] creating /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.270s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.270s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.270s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.271s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/rectangle_area_client.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.271s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.271s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.271s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.271s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.272s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.272s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter_reset.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.272s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/python_template.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter_server.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.273s] copying /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/rectangle_area_server.py -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.274s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.274s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.274s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.275s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/rectangle_area_client.py to rectangle_area_client.cpython-310.pyc
+[2.276s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery.py to battery.cpython-310.pyc
+[2.277s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.277s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[2.277s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.277s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.278s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter_reset.py to number_counter_reset.cpython-310.pyc
+[2.278s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[2.278s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/python_template.py to python_template.cpython-310.pyc
+[2.279s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/led_panel.py to led_panel.cpython-310.pyc
+[2.280s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter_server.py to number_counter_server.cpython-310.pyc
+[2.280s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[2.281s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.281s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/rectangle_area_server.py to rectangle_area_server.cpython-310.pyc
+[2.282s] running install_data
+[2.283s] creating /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/ament_index
+[2.283s] creating /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.283s] creating /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.283s] copying resource/my_py_pkg -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.283s] copying package.xml -> /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.283s] running install_egg_info
+[2.285s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.286s] running install_scripts
+[2.311s] Installing add_two_ints_client script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.311s] Installing add_two_ints_client_no_oop script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.311s] Installing add_two_ints_server script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.311s] Installing battery script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.312s] Installing hw_status_publisher script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.312s] Installing led_panel script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.312s] Installing number_counter script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.312s] Installing number_counter_reset script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.312s] Installing number_counter_server script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing number_publisher script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing py_node script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing rectangle_area_client script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing rectangle_area_server script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing robot_news_station script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.313s] Installing smartphone script to /home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.314s] writing list of installed files to '/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/install.log'
+[2.413s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
