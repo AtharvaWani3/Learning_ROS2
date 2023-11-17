@@ -1,0 +1,29 @@
+[0.128s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/MAE547 -- -j4 -l4
+[0.176s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/MAE547 -- -j4 -l4
+[0.211s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/MAE547
+[0.219s] -- Install configuration: ""
+[0.219s] -- Execute custom install script
+[0.220s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//urdf/common_properties.urdf.xacro
+[0.230s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//urdf/mobile_base.urdf.xacro
+[0.239s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//urdf/mobile_base_gazebo.urdf.xacro
+[0.248s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//urdf/my_robot.urdf.xacro
+[0.258s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//launch/MAE547.launch.xml
+[0.258s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//launch/display.launch.py
+[0.258s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//launch/display.launch.xml
+[0.258s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547//rviz/urdf_config.rviz
+[0.259s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/ament_index/resource_index/package_run_dependencies/MAE547
+[0.259s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/ament_index/resource_index/parent_prefix_path/MAE547
+[0.259s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/environment/ament_prefix_path.sh
+[0.260s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/environment/ament_prefix_path.dsv
+[0.260s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/environment/path.sh
+[0.260s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/environment/path.dsv
+[0.261s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/local_setup.bash
+[0.261s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/local_setup.sh
+[0.261s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/local_setup.zsh
+[0.261s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/local_setup.dsv
+[0.262s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.dsv
+[0.272s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/ament_index/resource_index/packages/MAE547
+[0.272s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/cmake/MAE547Config.cmake
+[0.272s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/cmake/MAE547Config-version.cmake
+[0.272s] -- Up-to-date symlink: /home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.xml
+[0.275s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/MAE547

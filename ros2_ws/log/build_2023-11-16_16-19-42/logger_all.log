@@ -1,0 +1,219 @@
+[1.405s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'MAE547']
+[1.405s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['MAE547'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f285df264a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f285e31d0c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f285e31d0c0>>)
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atharva/Learning_ROS2/ros2_ws'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.484s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.485s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extensions ['ignore', 'ignore_ament_install']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extension 'ignore'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extension 'ignore_ament_install'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extensions ['colcon_pkg']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extension 'colcon_pkg'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extensions ['colcon_meta']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extension 'colcon_meta'
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extensions ['ros']
+[1.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/MAE547) by extension 'ros'
+[1.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/MAE547' with type 'ros.ament_cmake' and name 'MAE547'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[1.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[1.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[1.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[1.491s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[1.493s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extension 'ignore'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extension 'ignore_ament_install'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extensions ['colcon_pkg']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extension 'colcon_pkg'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extensions ['colcon_meta']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extension 'colcon_meta'
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extensions ['ros']
+[1.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_gazebo_bringup) by extension 'ros'
+[1.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_gazebo_bringup' with type 'ros.ament_cmake' and name 'my_robot_gazebo_bringup'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[1.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[1.495s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ignore'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ignore_ament_install'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['colcon_pkg']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'colcon_pkg'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['colcon_meta']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'colcon_meta'
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['ros']
+[1.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ros'
+[1.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/radio_station_bringup' with type 'ros.ament_cmake' and name 'radio_station_bringup'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['ignore', 'ignore_ament_install']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ignore'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ignore_ament_install'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['colcon_pkg']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'colcon_pkg'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['colcon_meta']
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'colcon_meta'
+[1.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['ros']
+[1.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ros'
+[1.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_catch_em_all' with type 'ros.ament_python' and name 'turtlesim_catch_em_all'
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_description' in 'src/my_robot_description'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_interfaces' in 'src/my_robot_interfaces'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_py_pkg' in 'src/my_py_pkg'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_gazebo_bringup' in 'src/my_robot_gazebo_bringup'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlesim_catch_em_all' in 'src/turtlesim_catch_em_all'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_bringup' in 'src/my_robot_bringup'
+[1.584s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'radio_station_bringup' in 'src/radio_station_bringup'
+[1.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.671s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/atharva/ros2_ws/install
+[1.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/atharva/Learning_ROS2/ros2_ws/install
+[1.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[1.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_target' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_clean_cache' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_clean_first' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'cmake_force_configure' from command line to 'False'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'ament_cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'catkin_cmake_args' from command line to 'None'
+[1.847s] Level 5:colcon.colcon_core.verb:set package 'MAE547' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.847s] DEBUG:colcon.colcon_core.verb:Building package 'MAE547' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/MAE547', 'symlink_install': False, 'test_result_base': None}
+[1.868s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.891s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/MAE547' with build type 'ament_cmake'
+[1.891s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/MAE547'
+[1.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/MAE547 -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/MAE547
+[2.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/MAE547 -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/MAE547
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/MAE547 -- -j4 -l4
+[2.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/MAE547 -- -j4 -l4
+[2.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/MAE547
+[2.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(MAE547)
+[2.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/MAE547' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/MAE547:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/MAE547
+[2.422s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547' for CMake module files
+[2.422s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547' for CMake config files
+[2.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('MAE547', 'cmake_prefix_path')
+[2.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.ps1'
+[2.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.dsv'
+[2.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.sh'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/bin'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/lib/pkgconfig/MAE547.pc'
+[2.445s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/lib/python3.10/site-packages'
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/bin'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.sh'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.zsh'
+[2.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/colcon-core/packages/MAE547)
+[2.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(MAE547)
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547' for CMake module files
+[2.540s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547' for CMake config files
+[2.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('MAE547', 'cmake_prefix_path')
+[2.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.dsv'
+[2.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/hook/cmake_prefix_path.sh'
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/bin'
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/lib/pkgconfig/MAE547.pc'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/lib/python3.10/site-packages'
+[2.563s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/bin'
+[2.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.ps1'
+[2.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.sh'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.bash'
+[2.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/MAE547/package.zsh'
+[2.589s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/MAE547/share/colcon-core/packages/MAE547)
+[2.589s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.590s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.617s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.630s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.ps1'
+[2.652s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atharva/Learning_ROS2/ros2_ws/install/_local_setup_util_ps1.py'
+[2.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.sh'
+[2.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atharva/Learning_ROS2/ros2_ws/install/_local_setup_util_sh.py'
+[2.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.sh'
+[2.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.bash'
+[2.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.bash'
+[2.724s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.zsh'
+[2.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.zsh'

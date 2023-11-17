@@ -40,3 +40,9 @@
         <!-- CONTINUE FROM HERE  -->
         datum coordinate frame<p></p></li>
 </ol>
+
+<h2> Random debugging notes </h2>
+<ul>
+<li>gzserver and gzclient starts but gui does not open (gazebo classic)- reinstall gazebo with sudo apt install ros-<distro>-gazebo*</li>
+<li>Robot spawns correctly the first time but falls through the floor the second time - look for robot_state_publisher process and manually kill it.</li>
+</ul>

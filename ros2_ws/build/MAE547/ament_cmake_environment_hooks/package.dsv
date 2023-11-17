@@ -1,0 +1,4 @@
+source;share/MAE547/local_setup.bash
+source;share/MAE547/local_setup.dsv
+source;share/MAE547/local_setup.sh
+source;share/MAE547/local_setup.zsh
