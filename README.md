@@ -45,4 +45,5 @@
 <ul>
 <li>gzserver and gzclient starts but gui does not open (gazebo classic)- reinstall gazebo with sudo apt install ros-<distro>-gazebo*</li>
 <li>Robot spawns correctly the first time but falls through the floor the second time - look for robot_state_publisher process and manually kill it.</li>
+<li>https://github.com/ros-simulation/gazebo_ros_pkgs/tree/ros2/gazebo_plugins/include/gazebo_plugins</li>
 </ul>
