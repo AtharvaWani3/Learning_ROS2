@@ -1,1 +1,3 @@
-/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_interfaces/msg/HardwareStatus.msg
+int64 temperature
+bool are_motors_ready
+string debug_message

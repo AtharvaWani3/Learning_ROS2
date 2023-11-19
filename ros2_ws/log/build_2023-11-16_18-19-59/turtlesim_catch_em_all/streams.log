@@ -1,0 +1,24 @@
+[1.620s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed
+[1.959s] running egg_info
+[1.960s] writing ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/PKG-INFO
+[1.960s] writing dependency_links to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/dependency_links.txt
+[1.960s] writing entry points to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/entry_points.txt
+[1.961s] writing requirements to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/requires.txt
+[1.961s] writing top-level names to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/top_level.txt
+[1.964s] reading manifest file '../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/SOURCES.txt'
+[1.964s] adding license file 'LICENSE'
+[1.966s] writing manifest file '../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/SOURCES.txt'
+[1.966s] running build
+[1.966s] running build_py
+[1.967s] running install
+[1.967s] running install_lib
+[1.969s] running install_data
+[1.971s] running install_egg_info
+[1.973s] removing '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all-0.0.0-py3.10.egg-info' (and everything under it)
+[1.974s] Copying ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all-0.0.0-py3.10.egg-info
+[1.976s] running install_scripts
+[2.003s] Installing turtle_catcher script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.004s] Installing turtle_controller script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.004s] Installing turtle_spawner script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.004s] writing list of installed files to '/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log'
+[2.048s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed

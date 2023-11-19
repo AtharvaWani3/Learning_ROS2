@@ -1,0 +1,44 @@
+[0.150s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/mae_547 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/mae_547
+[0.368s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.486s] -- Detecting C compiler ABI info
+[0.575s] -- Detecting C compiler ABI info - done
+[0.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.584s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.588s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.703s] -- Detecting CXX compile features
+[0.704s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.919s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.113s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.326s] -- Added test 'lint_cmake' to check CMake code style
+[1.330s] -- Added test 'xmllint' to check XML markup files
+[1.332s] -- Configuring done
+[1.336s] -- Generating done
+[1.337s] -- Build files have been written to: /home/atharva/Learning_ROS2/ros2_ws/build/mae_547
+[1.343s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/mae_547 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/mae_547
+[1.344s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j4 -l4
+[1.388s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j4 -l4
+[1.422s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547
+[1.431s] -- Install configuration: ""
+[1.431s] -- Execute custom install script
+[1.431s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/package_run_dependencies/mae_547
+[1.441s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/parent_prefix_path/mae_547
+[1.451s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/ament_prefix_path.sh
+[1.460s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/ament_prefix_path.dsv
+[1.469s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/path.sh
+[1.479s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/path.dsv
+[1.488s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.bash
+[1.497s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.sh
+[1.507s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.zsh
+[1.516s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.dsv
+[1.525s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.dsv
+[1.535s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/packages/mae_547
+[1.545s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/cmake/mae_547Config.cmake
+[1.554s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/cmake/mae_547Config-version.cmake
+[1.563s] -- Symlinking: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.xml
+[1.574s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547

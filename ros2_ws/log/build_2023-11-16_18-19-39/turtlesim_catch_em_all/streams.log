@@ -1,0 +1,46 @@
+[1.653s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed
+[1.993s] running egg_info
+[1.994s] creating ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info
+[1.994s] writing ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/PKG-INFO
+[1.995s] writing dependency_links to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/dependency_links.txt
+[1.995s] writing entry points to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/entry_points.txt
+[1.995s] writing requirements to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/requires.txt
+[1.996s] writing top-level names to ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/top_level.txt
+[1.996s] writing manifest file '../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/SOURCES.txt'
+[1.998s] reading manifest file '../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/SOURCES.txt'
+[1.999s] adding license file 'LICENSE'
+[2.000s] writing manifest file '../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info/SOURCES.txt'
+[2.000s] running build
+[2.000s] running build_py
+[2.001s] creating /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build
+[2.001s] creating /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib
+[2.001s] creating /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all
+[2.001s] copying turtlesim_catch_em_all/turtle_catcher.py -> /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all
+[2.001s] copying turtlesim_catch_em_all/turtle_controller.py -> /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all
+[2.002s] copying turtlesim_catch_em_all/__init__.py -> /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all
+[2.002s] copying turtlesim_catch_em_all/turtle_spawner.py -> /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all
+[2.002s] running install
+[2.002s] running install_lib
+[2.004s] creating /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all
+[2.005s] copying /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all/turtle_catcher.py -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all
+[2.005s] copying /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all/turtle_controller.py -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all
+[2.005s] copying /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all/__init__.py -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all
+[2.006s] copying /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build/lib/turtlesim_catch_em_all/turtle_spawner.py -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all
+[2.008s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all/turtle_catcher.py to turtle_catcher.cpython-310.pyc
+[2.010s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all/turtle_controller.py to turtle_controller.cpython-310.pyc
+[2.013s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all/__init__.py to __init__.cpython-310.pyc
+[2.013s] byte-compiling /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[2.014s] running install_data
+[2.015s] creating /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/ament_index
+[2.015s] creating /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/ament_index/resource_index
+[2.015s] creating /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/ament_index/resource_index/packages
+[2.016s] copying resource/turtlesim_catch_em_all -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/ament_index/resource_index/packages
+[2.016s] copying package.xml -> /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all
+[2.016s] running install_egg_info
+[2.017s] Copying ../../build/turtlesim_catch_em_all/turtlesim_catch_em_all.egg-info to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages/turtlesim_catch_em_all-0.0.0-py3.10.egg-info
+[2.018s] running install_scripts
+[2.044s] Installing turtle_catcher script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.044s] Installing turtle_controller script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.044s] Installing turtle_spawner script to /home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/turtlesim_catch_em_all
+[2.044s] writing list of installed files to '/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log'
+[2.091s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_gazebo_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed

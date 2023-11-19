@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_robot_description")
 set(my_robot_description_VERSION "0.0.0")
-set(my_robot_description_MAINTAINER "atharva <aawani@asu.edu>")
+set(my_robot_description_MAINTAINER "ed <edouard.renard.pro@gmail.com>")
 set(my_robot_description_BUILD_DEPENDS )
 set(my_robot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(my_robot_description_BUILD_EXPORT_DEPENDS )

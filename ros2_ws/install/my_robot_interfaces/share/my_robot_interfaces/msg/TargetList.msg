@@ -1,1 +1,3 @@
-/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_interfaces/msg/TargetList.msg
+string name
+float32 target_x
+float32 target_y

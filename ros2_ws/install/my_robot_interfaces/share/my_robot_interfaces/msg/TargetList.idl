@@ -1,1 +1,16 @@
-/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/TargetList.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from my_robot_interfaces/msg/TargetList.msg
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module msg {
+    struct TargetList {
+      string name;
+
+      float target_x;
+
+      float target_y;
+    };
+  };
+};

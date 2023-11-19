@@ -6,5 +6,5 @@ C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"my_robot_inter
 
 C_INCLUDES = -I/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces/rosidl_generator_c -I/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces/rosidl_generator_py -I/usr/include/python3.10 -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface
 
-C_FLAGS = -g -fPIC -Wall -Wextra
+C_FLAGS = -fPIC -Wall -Wextra
 
