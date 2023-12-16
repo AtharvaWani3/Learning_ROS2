@@ -1,0 +1,29 @@
+[0.042s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j32 -l32
+[0.077s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j32 -l32
+[0.151s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547
+[0.178s] -- Install configuration: ""
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/urdf
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/urdf/common_properties.xacro
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/urdf/my_robot.urdf.xacro
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/urdf/mobile_base.xacro
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/urdf/mobile_base_gazebo.xacro
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/launch
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/launch/display.launch.xml
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/rviz
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/rviz/urdf_config.rviz
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/package_run_dependencies/mae_547
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/parent_prefix_path/mae_547
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/path.sh
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/environment/path.dsv
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.bash
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.sh
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.zsh
+[0.178s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/local_setup.dsv
+[0.179s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.dsv
+[0.179s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/ament_index/resource_index/packages/mae_547
+[0.179s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/cmake/mae_547Config.cmake
+[0.179s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/cmake/mae_547Config-version.cmake
+[0.179s] -- Up-to-date: /home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.xml
+[0.308s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547

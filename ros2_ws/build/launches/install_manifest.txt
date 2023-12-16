@@ -1,0 +1,17 @@
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/launch/click_launch.py
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/launch/default_launch.py
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/ament_index/resource_index/package_run_dependencies/launches
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/ament_index/resource_index/parent_prefix_path/launches
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/environment/ament_prefix_path.sh
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/environment/ament_prefix_path.dsv
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/environment/path.sh
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/environment/path.dsv
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/local_setup.bash
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/local_setup.sh
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/local_setup.zsh
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/local_setup.dsv
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.dsv
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/ament_index/resource_index/packages/launches
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/cmake/launchesConfig.cmake
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/cmake/launchesConfig-version.cmake
+/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.xml

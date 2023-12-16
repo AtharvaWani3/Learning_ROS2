@@ -1,0 +1,24 @@
+[0.142s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j32 -l32
+[0.165s] [  1%] Built target my_robot_interfaces__cpp
+[0.170s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.175s] [ 12%] Built target ament_cmake_python_copy_my_robot_interfaces
+[0.176s] [ 23%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[0.182s] [ 35%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[0.182s] [ 46%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.183s] [ 57%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[0.185s] [ 69%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[0.186s] [ 80%] Built target my_robot_interfaces__rosidl_typesupport_c
+[0.196s] [ 80%] Built target my_robot_interfaces
+[0.209s] [ 81%] Built target my_robot_interfaces__py
+[0.220s] [ 91%] Built target my_robot_interfaces__rosidl_generator_py
+[0.232s] [ 94%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.232s] [ 97%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[0.232s] [100%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.283s] running egg_info
+[0.284s] writing my_robot_interfaces.egg-info/PKG-INFO
+[0.284s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[0.284s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[0.284s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.285s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[0.298s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[0.326s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j32 -l32

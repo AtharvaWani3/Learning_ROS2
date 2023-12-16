@@ -1,0 +1,48 @@
+[0.074s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo
+[0.079s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.166s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.206s] -- Configuring done
+[0.207s] -- Generating done
+[0.208s] -- Build files have been written to: /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo
+[0.272s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo
+[0.273s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo -- -j32 -l32
+[0.309s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo -- -j32 -l32
+[0.337s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo
+[0.357s] -- Install configuration: ""
+[0.357s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds
+[0.357s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/populated_road.world
+[0.358s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar.world
+[0.358s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_spawn.world
+[0.358s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/autocar_city.world
+[0.359s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/road.world
+[0.360s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/worlds/empty.world
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/burger_base.dae
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/spoiler.stl
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/fr_1.stl
+[0.360s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/bl_1.stl
+[0.361s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/br_1.stl
+[0.361s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/tire.dae
+[0.361s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/hokuyo.dae
+[0.361s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/lds.dae
+[0.361s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/chassis_link.stl
+[0.363s] -- Installing: /home/atharva/.gazebo/models/autocar/meshes/fl_1.stl
+[0.363s] -- Installing: /home/atharva/.gazebo/models/autocar/model.config
+[0.363s] -- Installing: /home/atharva/.gazebo/models/autocar/model.sdf
+[0.363s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/ament_index/resource_index/package_run_dependencies/autocar_gazebo
+[0.363s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/ament_index/resource_index/parent_prefix_path/autocar_gazebo
+[0.363s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.sh
+[0.363s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/environment/ament_prefix_path.dsv
+[0.363s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.sh
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/environment/path.dsv
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.bash
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.sh
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.zsh
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/local_setup.dsv
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/ament_index/resource_index/packages/autocar_gazebo
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig.cmake
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/cmake/autocar_gazeboConfig-version.cmake
+[0.364s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.xml
+[0.447s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo

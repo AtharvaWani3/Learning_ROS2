@@ -1,0 +1,22 @@
+[0.078s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo
+[0.082s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[0.160s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.160s]   project has asked CMake to find a package configuration file provided by
+[0.160s]   "ament_lint_auto", but CMake did not find one.
+[0.161s] 
+[0.161s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.161s]   with any of the following names:
+[0.161s] 
+[0.161s]     ament_lint_autoConfig.cmake
+[0.161s]     ament_lint_auto-config.cmake
+[0.161s] 
+[0.161s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.161s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.161s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.161s]   sure it has been installed.
+[0.161s] 
+[0.161s] [0m
+[0.161s] -- Configuring incomplete, errors occurred!
+[0.161s] See also "/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo/CMakeFiles/CMakeOutput.log".
+[0.233s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo

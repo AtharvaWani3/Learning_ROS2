@@ -1,0 +1,2 @@
+Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/launches -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/launches
+Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/launches -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/launches
