@@ -6,8 +6,7 @@
 
 
      <include file="$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py">
-          <!-- <arg name="world" value="$(find-pkg-share my_robot_bringup)/worlds/test_world.world"
-          /> -->
+          <arg name="world" value="$(find-pkg-share mae547_bringup)/worlds/my_world.world" />
      </include>
 
      <node pkg="rviz2" exec="rviz2" output="screen"

@@ -46,7 +46,10 @@
 <li>gzserver and gzclient starts but gui does not open (gazebo classic)- reinstall gazebo with sudo apt install ros-<distro>-gazebo*</li>
 <li>Robot spawns correctly the first time but falls through the floor the second time - look for robot_state_publisher process and manually kill it.</li>
 <li>https://github.com/ros-simulation/gazebo_ros_pkgs/tree/ros2/gazebo_plugins/include/gazebo_plugins</li>
-<li>add to ~/.bashrc -> source /usr/share/gazebo/setup.sh</li>
+<li>If gazebo does not open with ros2 launch add to ~/.bashrc -> source /usr/share/gazebo/setup.sh</li>
 <li>sudo apt install ros-humble-gazebo-ros-pkgs</li>
 <li>sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazebo-ros2-control</li>
+<li>http://classic.gazebosim.org/tutorials/browse</li>
+<li>https://github.com/ros-simulation/gazebo_ros_pkgs/tree/ros2/gazebo_plugins/include/gazebo_plugins</li>
+<li>To use camera sensor with OpenCV: https://answers.ros.org/question/232534/gazebo-camera-frame-is-inconsistent-with-rviz-opencv-convention/</li>
 </ul>

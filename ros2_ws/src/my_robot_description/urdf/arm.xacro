@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<robot name="my_robot_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:property name="base_length" value="0.1" />
+    <xacro:property name="base_width" value="0.1" />
+    <xacro:property name="base_height" value="0.02" />
+
+
+    <link name="arm_base_link">
+        <visual>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${base_height/2}" rpy="0 0 0" />
+            <material name="orange" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${base_length} ${base_width} ${base_height}" />
+            </geometry>
+            <origin xyz="0 0 ${base_height/2}" rpy="0 0 0" />
+        </collision>
+        <xacro:box_inertia m="1.0" l="${2*base_length}" w="${2*base_width}" h="${2*base_height}"
+                           xyz="0 0 0" rpy="0 0 0" />
+    </link>
+
+    <!-- <link name="forearm_link">
+        <visual>
+            <geometry></geometry>
+        </visual>
+    </link> -->
+
+    <!-- <link name="hand_link">
+
+    </link> -->
+
+    <!-- <joint name="arm_base_forearm_joint" type="revolute">
+
+    </joint>
+
+    <joint name="forearm_hand_joint" type="revolute">
+
+    </joint> -->
+</robot>
