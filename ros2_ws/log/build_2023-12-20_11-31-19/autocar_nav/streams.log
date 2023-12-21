@@ -1,0 +1,101 @@
+[0.027s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_nav -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.119s] -- Detecting C compile features
+[0.119s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.159s] -- Detecting CXX compiler ABI info - done
+[0.162s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.162s] -- Detecting CXX compile features
+[0.162s] -- Detecting CXX compile features - done
+[0.164s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.248s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.294s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[0.295s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.316s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.319s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.323s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.442s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[0.449s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.510s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.577s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.608s] -- Looking for pthread.h
+[0.646s] -- Looking for pthread.h - found
+[0.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.682s] -- Found Threads: TRUE  
+[0.932s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.975s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.976s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.976s] -- Added test 'lint_cmake' to check CMake code style
+[0.976s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.977s] -- Added test 'xmllint' to check XML markup files
+[0.978s] -- Configuring done
+[0.981s] -- Generating done
+[0.982s] -- Build files have been written to: /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav
+[1.027s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_nav -DCMAKE_INSTALL_PREFIX=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav
+[1.028s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav -- -j32 -l32
+[1.054s] Built target ament_cmake_python_copy_autocar_nav
+[1.169s] running egg_info
+[1.169s] creating autocar_nav.egg-info
+[1.169s] writing autocar_nav.egg-info/PKG-INFO
+[1.169s] writing dependency_links to autocar_nav.egg-info/dependency_links.txt
+[1.169s] writing top-level names to autocar_nav.egg-info/top_level.txt
+[1.169s] writing manifest file 'autocar_nav.egg-info/SOURCES.txt'
+[1.170s] reading manifest file 'autocar_nav.egg-info/SOURCES.txt'
+[1.170s] writing manifest file 'autocar_nav.egg-info/SOURCES.txt'
+[1.183s] Built target ament_cmake_python_build_autocar_nav_egg
+[1.189s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav -- -j32 -l32
+[1.201s] Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav
+[1.204s] -- Install configuration: ""
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/pythonpath.sh
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/pythonpath.dsv
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav-0.0.0-py3.10.egg-info
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav-0.0.0-py3.10.egg-info/PKG-INFO
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav-0.0.0-py3.10.egg-info/top_level.txt
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.204s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.205s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav
+[1.205s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/__init__.py
+[1.205s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/normalise_angle.py
+[1.205s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/cubic_spline_interpolator.py
+[1.205s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/yaw_to_quaternion.py
+[1.221s] Listing '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav'...
+[1.221s] Compiling '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/__init__.py'...
+[1.221s] Compiling '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/cubic_spline_interpolator.py'...
+[1.221s] Compiling '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/normalise_angle.py'...
+[1.221s] Compiling '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages/autocar_nav/yaw_to_quaternion.py'...
+[1.223s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/config
+[1.223s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/config/navigation_params.yaml
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/data
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/data/waypoints.csv
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/autocar_nav/globalplanner.py
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/autocar_nav/localisation.py
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/autocar_nav/localplanner.py
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/autocar_nav/clickplanner.py
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/autocar_nav/tracker.py
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/ament_index/resource_index/package_run_dependencies/autocar_nav
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/ament_index/resource_index/parent_prefix_path/autocar_nav
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/ament_prefix_path.sh
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/ament_prefix_path.dsv
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/path.sh
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/environment/path.dsv
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/local_setup.bash
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/local_setup.sh
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/local_setup.zsh
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/local_setup.dsv
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.dsv
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/ament_index/resource_index/packages/autocar_nav
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/cmake/autocar_navConfig.cmake
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/cmake/autocar_navConfig-version.cmake
+[1.224s] -- Installing: /home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.xml
+[1.225s] Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav

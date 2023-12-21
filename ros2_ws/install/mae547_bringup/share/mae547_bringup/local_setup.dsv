@@ -1,1 +1,2 @@
-/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup/ament_cmake_environment_hooks/local_setup.dsv
+source;share/mae547_bringup/environment/ament_prefix_path.sh
+source;share/mae547_bringup/environment/path.sh

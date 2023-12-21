@@ -36,9 +36,7 @@
 <h2>Simulation concepts and tools</h2>
 <ol>
     <li><h3>TransForm (tf)</h3>
-        Each component of a robotic system has its own coordiniate frame. TransForms refer to the calculation for relating component coordinate frames to a base / reference frame. It is important to do so to define where each component is located on a robot with respect to a 
-        <!-- CONTINUE FROM HERE  -->
-        datum coordinate frame<p></p></li>
+        Each component of a robotic system has its own coordiniate frame. TransForms refer to the calculation for relating component coordinate frames to a base / reference frame. It is important to do so to define where each component is located on a robot with respect to a datum coordinate frame</li>
 </ol>
 
 <h2> Random debugging notes </h2>
@@ -50,6 +48,6 @@
 <li>sudo apt install ros-humble-gazebo-ros-pkgs</li>
 <li>sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-gazebo-ros2-control</li>
 <li>http://classic.gazebosim.org/tutorials/browse</li>
-<li>https://github.com/ros-simulation/gazebo_ros_pkgs/tree/ros2/gazebo_plugins/include/gazebo_plugins</li>
+<li>For Arduino IDE code not uploading to board run-> home/.arduino15/packages/arduino/hardware/mbed_nano/4.0.10/post_install.sh</li>
 <li>To use camera sensor with OpenCV: https://answers.ros.org/question/232534/gazebo-camera-frame-is-inconsistent-with-rviz-opencv-convention/</li>
 </ul>

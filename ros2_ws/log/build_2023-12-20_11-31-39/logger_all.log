@@ -1,0 +1,973 @@
+[0.391s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.391s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f442889e440>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f44288a5600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f44288a5600>>)
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/atharva/Learning_ROS2/ros2_ws'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'ros'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['cmake', 'python']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'cmake'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'python'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extensions ['python_setup_py']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar) by extension 'python_setup_py'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_description) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/autocar_description' with type 'ros.ament_cmake' and name 'autocar_description'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_gazebo) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/autocar_gazebo' with type 'ros.ament_cmake' and name 'autocar_gazebo'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_map) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/autocar_map' with type 'ros.ament_cmake' and name 'autocar_map'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_msgs) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/autocar_msgs' with type 'ros.ament_cmake' and name 'autocar_msgs'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/autocar_nav) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/autocar_nav' with type 'ros.ament_cmake' and name 'autocar_nav'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/launches) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autocar/launches' with type 'ros.ament_cmake' and name 'launches'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/autocar/resources) by extension 'python_setup_py'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae547_bringup) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mae547_bringup' with type 'ros.ament_cmake' and name 'mae547_bringup'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/mae_547) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mae_547' with type 'ros.ament_cmake' and name 'mae_547'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_interfaces) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/radio_station_bringup) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/radio_station_bringup' with type 'ros.ament_cmake' and name 'radio_station_bringup'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_catch_em_all) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_catch_em_all' with type 'ros.ament_python' and name 'turtlesim_catch_em_all'
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/atharva/Learning_ROS2/ros2_ws/install
+[0.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_target' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.523s] Level 5:colcon.colcon_core.verb:set package 'autocar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.523s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_description', 'symlink_install': False, 'test_result_base': None}
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.529s] Level 5:colcon.colcon_core.verb:set package 'autocar_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.529s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'autocar_map' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_map' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_map', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_map', 'symlink_install': False, 'test_result_base': None}
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.540s] Level 5:colcon.colcon_core.verb:set package 'autocar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.540s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_cache' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'launches' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'launches' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/launches', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/launches', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/launches', 'symlink_install': False, 'test_result_base': None}
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_target' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_clean_cache' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_clean_first' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'cmake_force_configure' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'ament_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'catkin_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'mae_547' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'mae_547' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/mae_547', 'symlink_install': False, 'test_result_base': None}
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.557s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.557s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.562s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] Level 5:colcon.colcon_core.verb:set package 'autocar_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] DEBUG:colcon.colcon_core.verb:Building package 'autocar_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_nav', 'symlink_install': False, 'test_result_base': None}
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_target' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.574s] Level 5:colcon.colcon_core.verb:set package 'mae547_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.574s] DEBUG:colcon.colcon_core.verb:Building package 'mae547_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/mae547_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.579s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_target' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_clean_cache' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_clean_first' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'cmake_force_configure' from command line to 'False'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'ament_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'catkin_cmake_args' from command line to 'None'
+[0.591s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_catch_em_all' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.591s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_catch_em_all' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all', 'symlink_install': False, 'test_result_base': None}
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_target' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'radio_station_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'radio_station_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup', 'merge_install': False, 'path': '/home/atharva/Learning_ROS2/ros2_ws/src/radio_station_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.602s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.608s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.608s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.608s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_interfaces'
+[0.615s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description' with build type 'ament_cmake'
+[0.633s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_description'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_msgs' with build type 'ament_cmake'
+[0.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_msgs'
+[0.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_description' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_description'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo' with build type 'ament_cmake'
+[0.705s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_gazebo'
+[0.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_map' with build type 'ament_cmake'
+[0.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_map'
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/launches' with build type 'ament_cmake'
+[0.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/launches'
+[0.758s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.758s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.776s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/mae_547' with build type 'ament_cmake'
+[0.776s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/mae_547'
+[0.782s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.782s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j32 -l32
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description -- -j32 -l32
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs -- -j32 -l32
+[0.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_description -- -j32 -l32
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo -- -j32 -l32
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_map -- -j32 -l32
+[0.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/launches -- -j32 -l32
+[0.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j32 -l32
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description -- -j32 -l32
+[0.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_description -- -j32 -l32
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo -- -j32 -l32
+[0.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/launches -- -j32 -l32
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae_547 -- -j32 -l32
+[0.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_description
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description
+[0.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/launches
+[0.851s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_description)
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_map -- -j32 -l32
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_description
+[0.873s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description' for CMake module files
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description' for CMake config files
+[0.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_description', 'cmake_prefix_path')
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.sh'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/bin'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/lib/pkgconfig/autocar_description.pc'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/lib/python3.10/site-packages'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/bin'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.sh'
+[0.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.bash'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.zsh'
+[0.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/colcon-core/packages/autocar_description)
+[0.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_gazebo)
+[0.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_gazebo
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo' for CMake module files
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo' for CMake config files
+[0.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_gazebo', 'cmake_prefix_path')
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.sh'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/bin'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/lib/pkgconfig/autocar_gazebo.pc'
+[0.909s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/lib/python3.10/site-packages'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/bin'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.sh'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.bash'
+[0.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.zsh'
+[0.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/colcon-core/packages/autocar_gazebo)
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mae_547)
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_map': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_map
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae_547' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae_547
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547' for CMake module files
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547' for CMake config files
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('mae_547', 'cmake_prefix_path')
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.ps1'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.dsv'
+[0.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.sh'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/bin'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/lib/pkgconfig/mae_547.pc'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/lib/python3.10/site-packages'
+[0.931s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/bin'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.dsv'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.sh'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.bash'
+[0.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.zsh'
+[0.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/colcon-core/packages/mae_547)
+[0.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/launches' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/launches
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches' for CMake module files
+[0.945s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches' for CMake config files
+[0.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/bin'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/lib/pkgconfig/launches.pc'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/lib/python3.10/site-packages'
+[0.952s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/bin'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.ps1'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.sh'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.bash'
+[0.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.zsh'
+[0.959s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/colcon-core/packages/launches)
+[0.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_description
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description' for CMake module files
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description' for CMake config files
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/lib/python3.10/site-packages'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/bin'
+[0.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[0.982s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[0.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_description)
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description' for CMake module files
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description' for CMake config files
+[0.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_description', 'cmake_prefix_path')
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/hook/cmake_prefix_path.sh'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/bin'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/lib/pkgconfig/autocar_description.pc'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/lib/python3.10/site-packages'
+[1.005s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/bin'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.bash'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/autocar_description/package.zsh'
+[1.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description/share/colcon-core/packages/autocar_description)
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_map' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_map
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map' for CMake module files
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map' for CMake config files
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/bin'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib/python3.10/site-packages'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/bin'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.ps1'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.sh'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.bash'
+[1.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.zsh'
+[1.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/colcon-core/packages/autocar_map)
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs -- -j32 -l32
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces -- -j32 -l32
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_gazebo)
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo' for CMake module files
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo' for CMake config files
+[1.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_gazebo', 'cmake_prefix_path')
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/hook/cmake_prefix_path.sh'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/bin'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/lib/pkgconfig/autocar_gazebo.pc'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/lib/python3.10/site-packages'
+[1.054s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/bin'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.dsv'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.sh'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/autocar_gazebo/package.zsh'
+[1.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo/share/colcon-core/packages/autocar_gazebo)
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mae_547)
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547' for CMake module files
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547' for CMake config files
+[1.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('mae_547', 'cmake_prefix_path')
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/hook/cmake_prefix_path.sh'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/bin'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/lib/pkgconfig/mae_547.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/lib/python3.10/site-packages'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/bin'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.bash'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/mae_547/package.zsh'
+[1.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/mae_547/share/colcon-core/packages/mae_547)
+[1.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launches)
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches' for CMake config files
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('launches', 'cmake_prefix_path')
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/lib/pkgconfig/launches.pc'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/lib/python3.10/site-packages'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/launches/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.sh'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/launches/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/launches/share/colcon-core/packages/launches)
+[1.123s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description' for CMake module files
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/bin'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/bin'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/mae547_bringup' with build type 'ament_cmake'
+[1.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/mae547_bringup'
+[1.149s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.168s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_bringup' with build type 'ament_cmake'
+[1.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_robot_bringup'
+[1.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_map)
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map' for CMake module files
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_map', 'cmake_prefix_path')
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.ps1'
+[1.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.dsv'
+[1.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/hook/cmake_prefix_path.sh'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/bin'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib/pkgconfig/autocar_map.pc'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/lib/python3.10/site-packages'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/bin'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/autocar_map/package.zsh'
+[1.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map/share/colcon-core/packages/autocar_map)
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces
+[1.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup -- -j32 -l32
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup -- -j32 -l32
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup -- -j32 -l32
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup -- -j32 -l32
+[1.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_msgs
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs' for CMake module files
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs' for CMake config files
+[1.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib'
+[1.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/bin'
+[1.273s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib/python3.10/site-packages'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/bin'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.sh'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.bash'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[1.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup
+[1.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_interfaces
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.299s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib'
+[1.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.305s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/bin'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/bin'
+[1.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mae547_bringup)
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/mae547_bringup
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup' for CMake module files
+[1.321s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup' for CMake config files
+[1.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('mae547_bringup', 'cmake_prefix_path')
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.sh'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/bin'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/lib/pkgconfig/mae547_bringup.pc'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/lib/python3.10/site-packages'
+[1.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/bin'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.ps1'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.dsv'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.sh'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.bash'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.zsh'
+[1.335s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/colcon-core/packages/mae547_bringup)
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/my_robot_bringup
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup' for CMake module files
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/bin'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/bin'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_msgs)
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs' for CMake module files
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs' for CMake config files
+[1.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'cmake_prefix_path')
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/cmake_prefix_path.sh'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib'
+[1.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_msgs', 'ld_library_path_lib')
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.ps1'
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.dsv'
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/hook/ld_library_path_lib.sh'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/bin'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib/pkgconfig/autocar_msgs.pc'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib/python3.10/site-packages'
+[1.388s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/bin'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.ps1'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.bash'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/autocar_msgs/package.zsh'
+[1.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/share/colcon-core/packages/autocar_msgs)
+[1.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mae547_bringup)
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup' for CMake module files
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup' for CMake config files
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('mae547_bringup', 'cmake_prefix_path')
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.dsv'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/hook/cmake_prefix_path.sh'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/lib/pkgconfig/mae547_bringup.pc'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/lib/python3.10/site-packages'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/bin'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.sh'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.bash'
+[1.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/mae547_bringup/package.zsh'
+[1.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup/share/colcon-core/packages/mae547_bringup)
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_nav' with build type 'ament_cmake'
+[1.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/autocar/autocar_nav'
+[1.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces' for CMake module files
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[1.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib'
+[1.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[1.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/bin'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/bin'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[1.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup' for CMake module files
+[1.501s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup' for CMake config files
+[1.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/lib/python3.10/site-packages'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/bin'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[1.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[1.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[1.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[1.515s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[1.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[1.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all' with build type 'ament_python'
+[1.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_em_all', 'ament_prefix_path')
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/ament_prefix_path.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/ament_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/ament_prefix_path.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav -- -j32 -l32
+[1.698s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg'
+[1.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.704s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.840s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all'
+[1.846s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav -- -j32 -l32
+[1.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[1.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/autocar_nav
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav' for CMake module files
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav' for CMake config files
+[1.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/bin'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/python3.10/site-packages'
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/bin'
+[1.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.sh'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.bash'
+[1.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.zsh'
+[1.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[1.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autocar_nav)
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav' for CMake module files
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav' for CMake config files
+[1.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('autocar_nav', 'cmake_prefix_path')
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.ps1'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.dsv'
+[1.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/hook/cmake_prefix_path.sh'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/bin'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/pkgconfig/autocar_nav.pc'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/lib/python3.10/site-packages'
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/bin'
+[1.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.ps1'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.sh'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.bash'
+[1.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/autocar_nav/package.zsh'
+[1.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/share/colcon-core/packages/autocar_nav)
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed
+[2.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/src/turtlesim_catch_em_all' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtlesim_catch_em_all build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/turtlesim_catch_em_all/install.log --single-version-externally-managed
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all' for CMake module files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all' for CMake config files
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/bin'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/pkgconfig/turtlesim_catch_em_all.pc'
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages'
+[2.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_catch_em_all', 'pythonpath')
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/pythonpath.ps1'
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/pythonpath.dsv'
+[2.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/hook/pythonpath.sh'
+[2.185s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/bin'
+[2.185s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_catch_em_all)
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/package.ps1'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/package.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/package.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/package.bash'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/turtlesim_catch_em_all/package.zsh'
+[2.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/share/colcon-core/packages/turtlesim_catch_em_all)
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/prefix_override:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/build install --record /home/atharva/Learning_ROS2/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg' for CMake module files
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg' for CMake config files
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/bin'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[2.199s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages'
+[2.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/bin'
+[2.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[2.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[2.212s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[2.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/atharva/Learning_ROS2/ros2_ws/src/radio_station_bringup' with build type 'ament_cmake'
+[2.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/atharva/Learning_ROS2/ros2_ws/src/radio_station_bringup'
+[2.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup -- -j32 -l32
+[2.259s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup' returned '0': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup -- -j32 -l32
+[2.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup
+[2.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radio_station_bringup)
+[2.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup' returned '0': AMENT_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces:/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/mae547_bringup:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_description:/home/atharva/Learning_ROS2/ros2_ws/install/mae_547:/home/atharva/Learning_ROS2/ros2_ws/install/launches:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_map:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_gazebo:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_description:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all:/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/lib:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/atharva/Learning_ROS2/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/turtlesim_catch_em_all/lib/python3.10/site-packages:/home/atharva/Learning_ROS2/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_nav/local/lib/python3.10/dist-packages:/home/atharva/Learning_ROS2/ros2_ws/install/autocar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/atharva/Learning_ROS2/ros2_ws/build/radio_station_bringup
+[2.286s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup' for CMake module files
+[2.286s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup' for CMake config files
+[2.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('radio_station_bringup', 'cmake_prefix_path')
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.dsv'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.sh'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/bin'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/lib/pkgconfig/radio_station_bringup.pc'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/lib/python3.10/site-packages'
+[2.293s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/bin'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.ps1'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.sh'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.bash'
+[2.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.zsh'
+[2.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/colcon-core/packages/radio_station_bringup)
+[2.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(radio_station_bringup)
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup' for CMake module files
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup' for CMake config files
+[2.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('radio_station_bringup', 'cmake_prefix_path')
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.dsv'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/hook/cmake_prefix_path.sh'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/bin'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/lib/pkgconfig/radio_station_bringup.pc'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/lib/python3.10/site-packages'
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/bin'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.ps1'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.sh'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.bash'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/radio_station_bringup/package.zsh'
+[2.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/atharva/Learning_ROS2/ros2_ws/install/radio_station_bringup/share/colcon-core/packages/radio_station_bringup)
+[2.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.334s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.344s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.351s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.ps1'
+[2.363s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atharva/Learning_ROS2/ros2_ws/install/_local_setup_util_ps1.py'
+[2.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.ps1'
+[2.370s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.sh'
+[2.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/atharva/Learning_ROS2/ros2_ws/install/_local_setup_util_sh.py'
+[2.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.sh'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.bash'
+[2.377s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.bash'
+[2.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/atharva/Learning_ROS2/ros2_ws/install/local_setup.zsh'
+[2.383s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/atharva/Learning_ROS2/ros2_ws/install/setup.zsh'
