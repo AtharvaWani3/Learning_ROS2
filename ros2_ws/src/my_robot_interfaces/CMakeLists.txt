@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LedStatus.msg"
   "msg/TargetList.msg"
   "srv/ControlTurtle.srv"
+  "action/CountUntil.action"
 )
 
 ament_export_dependencies(rosidl_default_runtime)

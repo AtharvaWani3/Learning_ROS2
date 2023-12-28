@@ -40,6 +40,7 @@
         <li>Optionally, the Server may send a goal status</li>
         <li>Once the Goal is accomplished, the Action server sends the result</li>
         </ol>
+        <p>There can be multiple Action Clients sending requests to a single Action Server. And one Action Client may send more than one requests to the same Server at the same time.</p>
         </li>
 </ol>
 <br>
