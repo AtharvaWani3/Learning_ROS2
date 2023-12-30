@@ -40,6 +40,9 @@
         <li>Optionally, the Server may send a goal status</li>
         <li>Once the Goal is accomplished, the Action server sends the result</li>
         </ol>
+        <br>
+        Goal State Machine<br>
+        <img src="Resources/Screenshot from 2023-12-29 19-11-09.png">
         <p>There can be multiple Action Clients sending requests to a single Action Server. And one Action Client may send more than one requests to the same Server at the same time.</p>
         </li>
 </ol>
