@@ -43,7 +43,19 @@
         <br>
         Goal State Machine<br>
         <img src="Resources/Screenshot from 2023-12-29 19-11-09.png">
-        <p>There can be multiple Action Clients sending requests to a single Action Server. And one Action Client may send more than one requests to the same Server at the same time.</p>
+        <p>There can be multiple Action Clients sending requests to a single Action Server. And one Action Client may send more than one requests to the same Server at the same time. The action definition is saved as a .action file.<br>The structure of a service definition is as follows:<br>
+        <br>datatype request_variable_1
+        <br>datatype request_variable_2
+        <br>...
+        <br>---
+        <br>datatype response_variable_1
+        <br>datatype response_variable_2
+        <br>...
+        <br>---
+        <br>datatype feedback_variable_1
+        <br>datatype feedback_variable_2
+        <br>...<br>
+        Using "ros2 topic list --include-hidden-topics" and "ros2 service list --include-hidden-services" the two topics (feedback and status) and three services (send_goal, cancel_goal, get_result) can be seen. These topics and services are present but hidden as we don't need to interact with them directly.</p>
         </li>
 </ol>
 <br>
